@@ -1,0 +1,27 @@
+#git ignore link: https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+
+.idea/
+settings.*.yml
+
+
+#python cache
+__pycache__/
+
+#database and postgres environment
+*.db
+.env
+*.env
+
+#media files
+media/
+
+#django app migration files
+*/migrations/*
+!*/migrations/__init__.py
+
+
+#pycharm settings
+.DS_Store
+
+#virtual environment
+venv/
