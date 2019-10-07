@@ -1,0 +1,1 @@
+RECESS_HOUR = 1
